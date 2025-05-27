@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/academic-project-page-template-vue',
+  base:'/topometric_loc_website',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
