@@ -1,12 +1,29 @@
-<script lang="ts" setup>
+<script setup>
+import { ref, onMounted } from 'vue';
 </script>
+
+
 <template>
   <div>
+    <el-divider />
     <el-row justify="center">
-      <h1 class="section-title">Comparison of Semi-metric Map, Binocular ORB-SLAM3 Keyframes and Topometric Map</h1>
+      <h1 class="section-title">Topometric Mapping Result</h1>
     </el-row>
     
+    <el-row justify="center" style="margin-bottom: 20px;">
+      <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
+        <img src="/topometric_loc_website/topometric_result/f3.svg" alt="SVG Image" class="responsive-image"/>
+        <!-- <p>
+          
+        </p> -->
+      </el-col>
+    </el-row>
+
     <el-row justify="center">
+      <h1 class="section-title">Topometric Mapping VS ORB-SLAM3</h1>
+    </el-row>
+
+    <el-row justify="center" style="margin-bottom: 30px;">
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
         <table class="custom-table">
           <thead>
@@ -60,41 +77,34 @@
         </table>
       </el-col>
     </el-row>
+
   </div>
 </template>
 
+
+
 <style scoped>
-.custom-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
+.responsive-image {
+  max-width: 100%; /* 最大宽度 */
+  height: auto; /* 保持原始宽高比 */
+  display: block;
+  margin: 0 auto;
 }
-
-.custom-table th,
-.custom-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
-
-.custom-table th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-.custom-table strong {
-  font-weight: bold;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 20px;
+.section-title{
+    margin-bottom: 20px;
 }
 
 p {
+  /* text-align: center; */
+  margin-top: 15px;
+  font-size: 1.0em;
+}
+.custom-table{
+  font-size: 15px;
   text-align: center;
-  margin-top: 10px;
-  font-size: 0.9em;
-  color: #666;
+}
+tr{
+  height: 40px;
 }
 </style>
+

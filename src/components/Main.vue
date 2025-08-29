@@ -16,35 +16,44 @@ import Comment from './sections/Comment.vue'
 import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
+import Framework from './sections/Framework.vue'
+import Mapping from './sections/Mapping.vue'
+import Localization from './sections/Localization.vue'
 
 export default {
   components: {
     Title,
     Abstract,
-    Markdown,
-    BibTeX,
-    Carousel,
+    Framework,
+    Mapping,
+    Localization,
+    // Markdown,
+    // BibTeX,
+    // Carousel,
     Video,
-    ImageSlider,
-    ImageSliderInner,
-    ImageSelector,
-    Echart,
-    Collapse,
-    Table,
-    SeletionForComparison,
-    Comment,
-    Latex,
-    Model3D,
-    GaussianSplats3D
+    // ImageSlider,
+    // ImageSliderInner,
+    // ImageSelector,
+    // Echart,
+    // Collapse,
+    // Table,
+    // SeletionForComparison,
+    // Comment,
+    // Latex,
+    // Model3D,
+    // GaussianSplats3D
   }
 }
 </script>
 
 <template>
   <Title/>
-  <Carousel/>
+  <!-- <Carousel/> -->
   <Video/>
   <Abstract/>
+  <Framework/>
+  <Mapping/>
+  <Localization/>
   <Markdown/>
   <Latex/>
   <Table/>

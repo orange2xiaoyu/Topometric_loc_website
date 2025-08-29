@@ -13,7 +13,8 @@ const links = {
   
   <div class="bg">
     
-    <el-watermark :content="['JunyaoHu', 'Academic Project', 'Page Template']" :gap="['60','0']" :z-index="0">
+    <!-- <el-watermark :content="['JunyaoHu', 'Academic Project', 'Page Template']" :gap="['60','0']" :z-index="0"> -->
+    <!-- <el-watermark :gap="['60','0']" :z-index="0"></el-watermark> -->
       <el-row justify="center">
         <p class="footer">
           This template is inspired by 
@@ -27,7 +28,7 @@ const links = {
           You can fork🛠️ / star✨/ PR📃 from <a :href="links.template">here</a>.
         </p>
       </el-row>
-    </el-watermark>
+    <!-- </el-watermark> -->
   </div>
 </template>
 

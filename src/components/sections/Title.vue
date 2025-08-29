@@ -4,16 +4,16 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = " "
 
 // 标题
-const title = 'Academic Project Page Template'
+const title = 'Brain-Inspired Visual Topometric Localization via Roadnetwork-Constraint Hidden Markov Model'
 
 // 标题颜色
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' (Vue based)'
+const title_supp = ' '
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -24,22 +24,22 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Your Name",
-    icon: "./icon/junyaohu.jpg",
-    homepage: "https://junyaohu.github.io/",
-    address_flag: "1,#"
+    name: "Jinyu Li",
+    // icon: "./icon/junyaohu.jpg",
+    homepage: "https://scholar.google.com/citations?hl=en&user=jUQUP5AAAAAJ",
+    address_flag: "1"
   },
   {
-    name: "Anya Forger",
-    icon: "./icon/anya.jpg",
-    homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
+    name: "Taiping Zeng",
+    // icon: "./icon/anya.jpg",
+    homepage: "https://scholar.google.it/citations?user=HG7SdvwAAAAJ&hl=en",
+    address_flag: "2,*"
   },
   {
-    name: "BugCat Capoo",
-    icon: "./icon/capoo.webp",
-    homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    name: "Bailu Si",
+    // icon: "./icon/capoo.webp",
+    homepage: "https://scholar.google.it/citations?user=txkho3cAAAAJ&hl=en",
+    address_flag: "1"
   },
 ]
 
@@ -47,32 +47,32 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
-    icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    name: "School of Systems Science, Beijing Normal University",
+    icon: "./icon/beishida.png",
+    homepage: "https://www.bnu.edu.cn/"
   },
   {
     address_flag: "2",
-    name: "IKUN University",
-    icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+    name: "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University",
+    icon: "./icon/fudan.png",
+    homepage: "https://www.fudan.edu.cn/"
   },
 ]
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+  "*Corresponding Author."
 
 // 最新消息
-const news = "🔥 [2024-12-15] This template project is still under development."
+// const news = "🔥 [2024-12-15] This template project is still under development."
 
 // 强调内容
-const emphases = [
-  "🎉 [ABCD 2024] Poster",
-  "🥰 欢迎关注“减论”微信公众号/B站/知乎/小红书",
-  "传递人工智能算法科普教育的减约理解",
-  "提升信息效率及认知维度"
-]
+// const emphases = [
+//   "🎉 [ABCD 2024] Poster",
+//   "🥰 欢迎关注“减论”微信公众号/B站/知乎/小红书",
+//   "传递人工智能算法科普教育的减约理解",
+//   "提升信息效率及认知维度"
+// ]
 
 // 提供引导资料链接
 const buttons = [
@@ -81,63 +81,63 @@ const buttons = [
     name: "Paper",
     component: Document,
   },
+  // {
+  //   disabled: true,
+  //   name: "中译版",
+  //   component: Document,
+  // },
   {
     disabled: true,
-    name: "中译版",
-    component: Document,
-  },
-  {
-    disabled: false,
     name: "Code",
     link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
     component: Files,
   },
-  {
-    disabled: false,
-    name: "Demo",
-    link: "https://junyaohu.github.io/academic-project-page-template-vue",
-    component: MagicStick,
-  },
-  {
-    disabled: true,
-    name: "Poster",
-    component: Picture,
-  },
-  {
-    disabled: true,
-    name: "Slide",
-    component: DataAnalysis,
-  },
-  {
-    disabled: false,
-    name: "Video (减论)",
-    link: "https://www.bilibili.com/video/BV15XkgYiE73/",
-    component: Film,
-  },
-  {
-    disabled: false,
-    name: "Video (Tutorial)",
-    link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
-    component: Film,
-  },
+  // {
+  //   disabled: false,
+  //   name: "Demo",
+  //   link: "https://junyaohu.github.io/academic-project-page-template-vue",
+  //   component: MagicStick,
+  // },
+  // {
+  //   disabled: true,
+  //   name: "Poster",
+  //   component: Picture,
+  // },
+  // {
+  //   disabled: true,
+  //   name: "Slide",
+  //   component: DataAnalysis,
+  // },
+  // {
+  //   disabled: false,
+  //   name: "Video (减论)",
+  //   link: "https://www.bilibili.com/video/BV15XkgYiE73/",
+  //   component: Film,
+  // },
+  // {
+  //   disabled: false,
+  //   name: "Video (Tutorial)",
+  //   link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
+  //   component: Film,
+  // },
 ]
 
 </script>
 
 <template>
-  <div>
+  <div style="padding-bottom: 50px;">
 
     <!-- 最新消息提示 -->
-    <el-row justify="center">
+    <!-- <el-row justify="center">
       <el-col :span="24">
         <el-alert title="🔥 This template is still under development." type="success" />
       </el-col>
-    </el-row>
+    </el-row> -->
 
     <!-- 文章logo -->
-    <el-row v-if="logo" justify="center">
+    <!-- <el-row v-if="logo" justify="center">
       <el-image :src="logo" class="logo" fit="cover" />
-    </el-row>
+    </el-row> -->
 
     <!-- 文章标题 -->
     <el-row justify="center">
@@ -162,16 +162,18 @@ const buttons = [
     </el-row>
 
     <!-- 地址名单 -->
-    <el-row justify="center">
-      <a :href=address.homepage v-for="address in addresses">
-        <el-button class="title-button" type="primary" text>
-          <el-avatar v-if="address.icon" :size="40" :src="address.icon" />
+    <div class="main-address">
+    <div>
+      <div v-for="address in addresses">
+        <div class="title-button-address">
+          <!-- <el-avatar v-if="address.icon" :size="40" :src="address.icon" /> -->
           <span class="address">
             <sup v-if="address.address_flag" class="address_sup">{{ address.address_flag }}</sup>{{ address.name }}
           </span>
-        </el-button>
-      </a>
-    </el-row>
+        </div>
+      </div>
+    </div>
+    </div>
 
     <!-- 共一和通讯提示内容 -->
     <el-row justify="center" class="con-cor">
@@ -179,12 +181,12 @@ const buttons = [
     </el-row>
 
     <!-- 强调内容 -->
-    <el-row justify="center" class="emphasis" v-for="emphasis in emphases">
+    <!-- <el-row justify="center" class="emphasis" v-for="emphasis in emphases">
         {{ emphasis }}
-    </el-row>
+    </el-row> -->
 
     <!-- 提供引导按钮 -->
-    <el-row justify="center" style="margin-bottom: 20px;">
+    <el-row justify="center" style="margin-bottom: -20px;">
       <el-col :span="20">
         <el-row justify="center">
           <a :href=button.link v-for="button in buttons">
@@ -207,7 +209,7 @@ const buttons = [
 /* 文章标题字体、字间距、居中排布、字号 */
 .paper-title {
   font-family: "MyFont", Verdana, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 42px;
   margin: 32px;
   text-align: center;
@@ -215,12 +217,20 @@ const buttons = [
 
 /* 姓名和地址按钮 */
 .title-button {
-  margin: 10px 3px;
+  margin: 10px -10px;
 }
-
+.title-button-address{
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+}
 /* 姓名和地址按钮光标悬浮 */
 .title-button:hover {
   margin: 10px 8px;
+}
+.main-address{
+  display: flex;
+  justify-content: center;
 }
 
 /* 引导材料按钮 */
@@ -231,8 +241,8 @@ const buttons = [
 
 /* 姓名属性 */
 .author {
-  font-size: 18px;
-  margin-left: 3px;
+  font-size: 20px;
+  margin-left: 2px;
 }
 
 /* 姓名上标属性 */
@@ -243,7 +253,7 @@ const buttons = [
 
 /* 地址属性 */
 .address {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* 地址上标属性 */
@@ -261,7 +271,7 @@ const buttons = [
 /* 共一和通讯文字属性 */
 .con-cor {
   font-family: Arial;
-  font-size: 14px;
+  font-size: 20px;
   margin: 18px 0px;
   text-align: center;
 }
