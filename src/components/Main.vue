@@ -23,7 +23,7 @@ import Localization from './sections/Localization.vue'
 export default {
   components: {
     Title,
-    Abstract,
+    // Abstract,
     // Framework,
     // Mapping,
     // Localization,
@@ -35,7 +35,7 @@ export default {
 
 <template>
   <Title/>
-  <Abstract/>
+  <!-- <Abstract/> -->
   <!-- <Framework/> -->
   <!-- <Mapping/> -->
   <!-- <Localization/> -->
