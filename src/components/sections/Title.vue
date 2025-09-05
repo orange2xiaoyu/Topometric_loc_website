@@ -77,8 +77,9 @@ const con_and_corresponding_author =
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
+    link: "https://ieeexplore.ieee.org/document/11145338",
     component: Document,
   },
   // {
@@ -89,7 +90,6 @@ const buttons = [
   {
     disabled: true,
     name: "Code",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
     component: Files,
   },
   // {
