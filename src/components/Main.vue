@@ -24,48 +24,20 @@ export default {
   components: {
     Title,
     Abstract,
-    Framework,
-    Mapping,
-    Localization,
-    // Markdown,
-    // BibTeX,
-    // Carousel,
-    Video,
-    // ImageSlider,
-    // ImageSliderInner,
-    // ImageSelector,
-    // Echart,
-    // Collapse,
-    // Table,
-    // SeletionForComparison,
-    // Comment,
-    // Latex,
-    // Model3D,
-    // GaussianSplats3D
+    // Framework,
+    // Mapping,
+    // Localization,
+    // Video,
+    
   }
 }
 </script>
 
 <template>
   <Title/>
-  <!-- <Carousel/> -->
-  <Video/>
   <Abstract/>
-  <Framework/>
-  <Mapping/>
-  <Localization/>
-  <!-- 暂时注释掉未配置的组件 -->
-  <!-- <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
-  <BibTeX/>
-  <Comment/> -->
+  <!-- <Framework/> -->
+  <!-- <Mapping/> -->
+  <!-- <Localization/> -->
+   <!-- <Video/> -->
 </template>
