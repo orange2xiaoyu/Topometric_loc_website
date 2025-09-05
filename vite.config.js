@@ -24,7 +24,7 @@ export default defineConfig({
     }),
   ],
 
-  base: process.env.VERCEL ? '/' : '/Topometric_loc_website/',
+  base:  './',
 
   server: {
     host: '0.0.0.0',  // 允许外部访问

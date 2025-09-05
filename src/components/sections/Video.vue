@@ -15,19 +15,19 @@
 
         <!-- local -->
         <!-- 暂时注释视频，解决构建问题 -->
-        <!-- <el-container class="video-container">
+        <el-container class="video-container">
           <video controls muted preload playsinline>
             <source src="/Topometric_loc_website/topometric_result/video_v2.mp4" type="video/mp4">
           </video>
-        </el-container> -->
+        </el-container>
         
         <!-- 替代显示 -->
-        <el-container class="video-container">
+        <!-- <el-container class="video-container">
           <p style="text-align: center; padding: 50px; background-color: #f5f5f5; border-radius: 8px;">
             视频正在加载中... <br>
             <small>Video is loading...</small>
           </p>
-        </el-container>
+        </el-container> -->
         
         <!-- bilibili -->
         <!-- <el-container class="video-container">
