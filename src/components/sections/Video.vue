@@ -14,10 +14,19 @@
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="10" >
 
         <!-- local -->
-        <el-container class="video-container">
+        <!-- 暂时注释视频，解决构建问题 -->
+        <!-- <el-container class="video-container">
           <video controls muted preload playsinline>
-            <source src="/topometric_loc_website/topometric_result/video_v2.mp4" type="video/mp4">
+            <source src="/Topometric_loc_website/topometric_result/video_v2.mp4" type="video/mp4">
           </video>
+        </el-container> -->
+        
+        <!-- 替代显示 -->
+        <el-container class="video-container">
+          <p style="text-align: center; padding: 50px; background-color: #f5f5f5; border-radius: 8px;">
+            视频正在加载中... <br>
+            <small>Video is loading...</small>
+          </p>
         </el-container>
         
         <!-- bilibili -->

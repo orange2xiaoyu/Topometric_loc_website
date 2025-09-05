@@ -12,7 +12,7 @@ import { ref, onMounted } from 'vue';
     
     <el-row justify="center">
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
-        <img src="/topometric_loc_website/topometric_result/f2.svg" alt="SVG Image" class="responsive-image"/>
+        <img src="/Topometric_loc_website/topometric_result/f2.svg" alt="SVG Image" class="responsive-image"/>
         <p>
           Visual and vestibular cues are integrated to construct a semi-metric cognitive map. 
           Local view cells encode visual features, while integration and calibration cells support the formation of head direction and grid cell models for orientation and spatial representation. 

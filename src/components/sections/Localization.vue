@@ -12,7 +12,7 @@ import { ref, onMounted } from 'vue';
     
     <el-row justify="center">
       <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
-        <img src="/topometric_loc_website/topometric_result/f4.svg" alt="SVG Image" class="responsive-image"/>
+        <img src="/Topometric_loc_website/topometric_result/f4.svg" alt="SVG Image" class="responsive-image"/>
          
       </el-col>
     </el-row>

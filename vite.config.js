@@ -28,6 +28,13 @@ export default defineConfig({
     host: '0.0.0.0',  // 允许外部访问
     port: 3000,       // 指定端口号
   },
+  build: {
+    rollupOptions: {
+      external: [
+        /^\/Topometric_loc_website\/topometric_result\/.*/,
+      ],
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
