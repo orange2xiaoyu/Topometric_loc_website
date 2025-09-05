@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/topometric_loc_website',
+  base:'/Topometric_loc_website/',
   server: {
     host: '0.0.0.0',  // 允许外部访问
     port: 3000,       // 指定端口号
