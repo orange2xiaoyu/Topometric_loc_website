@@ -1,5 +1,13 @@
-# Abstract
-
-Accurate localization in GPS-denied environments remains a critical challenge for autonomous robot navigation. Animals exhibit remarkable navigational abilities in complex, dynamic environments by relying on mental cognitive maps. Inspired by neural representations such as head direction cells and grid cells, numerous robotic cognitive mapping systems can efficiently cover large areas; however, they often lack the precise metric information required for accurate localization. To address this challenge, we propose a neurodynamically driven monocular visual topometric localization approach based on road network constraints. We introduce the Roadnetwork-Constraint Hidden Markov Model (RC-HMM) to enhance semi-metric maps by incorporating road network constraints, forming a coherent topometric map that maintains vertex relationships and improves localization accuracy. Experimental results in the CARLA Town07 environment demonstrate the remarkable efficiency of our topometric cognitive map. Compared to semi-metric maps, our approach achieves a 95\% reduction in Absolute Pose Error (APE) and an 81\% reduction in Relative Pose Error (RPE). 
-Compared to binocular ORB-SLAM3, our monocular approach reduces CPU usage by 96.7\% and map storage by 77.7\%, with an APE of 3.6m and RPE of 1.4m — closely matching ORB-SLAM3’s 3.86m APE and 0.96m RPE.
-Furthermore, by leveraging neurodynamics of grid cells and head direction cells, our monocular topometric localization robustly delivers a localization accuracy of 3.86 meters, comparable to stereo ORB-SLAM3.
+Accurate localization in GPS-denied environments remains a critical challenge for autonomous robot navigation. 
+Animals exhibit remarkable navigational abilities in complex, dynamic environments by relying on mental cognitive maps. 
+Inspired by neural representations such as head direction cells and grid cells, numerous robotic cognitive mapping systems can efficiently cover large areas; 
+however, they often lack the precise metric information required for accurate localization. To address this challenge, 
+we propose a neurodynamically driven monocular visual topometric localization approach based on road network constraints. 
+We introduce the Roadnetwork-Constraint Hidden Markov Model (RC-HMM) to enhance semi-metric maps by incorporating road network constraints, 
+forming a coherent topometric map that maintains vertex relationships and improves localization accuracy. 
+Experimental results in the CARLA Town07 environment demonstrate the remarkable efficiency of our topometric cognitive map. 
+Compared to semi-metric maps, our approach achieves a 95\% reduction in Absolute Pose Error (APE) and an 81\% reduction in Relative Pose Error (RPE). 
+Compared to binocular ORB-SLAM3, our monocular approach reduces CPU usage by 96.7\% and map storage by 77.7\%, 
+with an APE of 3.6m and RPE of 1.4m — closely matching ORB-SLAM3’s 3.86m APE and 0.96m RPE. 
+Furthermore, by leveraging neurodynamics of grid cells and head direction cells, 
+our monocular topometric localization robustly delivers a localization accuracy of 3.86 meters, comparable to stereo ORB-SLAM3.

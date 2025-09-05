@@ -12,16 +12,16 @@ import remarkGfm from 'remark-gfm';
 export default defineConfig({
   plugins: [
     vue(),
-    // mdx({
-    //   jsxImportSource: 'vue',
-    //   remarkPlugins: [
-    //     remarkMath,
-    //     remarkGfm,
-    //   ],
-    //   rehypePlugins: [
-    //     rehypeKatex,
-    //   ],
-    // }),
+    mdx({
+      jsxImportSource: 'vue',
+      remarkPlugins: [
+        remarkMath,
+        remarkGfm,
+      ],
+      rehypePlugins: [
+        rehypeKatex,
+      ],
+    }),
   ],
 
   base:  '/',
