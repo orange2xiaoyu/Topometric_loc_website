@@ -54,7 +54,8 @@ export default {
   <Framework/>
   <Mapping/>
   <Localization/>
-  <Markdown/>
+  <!-- 暂时注释掉未配置的组件 -->
+  <!-- <Markdown/>
   <Latex/>
   <Table/>
   <Collapse/>
@@ -66,5 +67,5 @@ export default {
   <ImageSlider/>
   <ImageSelector/>
   <BibTeX/>
-  <Comment/>
+  <Comment/> -->
 </template>
