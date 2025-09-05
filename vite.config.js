@@ -23,12 +23,15 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/Topometric_loc_website/',
+
+  base: process.env.VERCEL ? '/' : '/Topometric_loc_website/',
+
   server: {
     host: '0.0.0.0',  // 允许外部访问
     port: 3000,       // 指定端口号
   },
   build: {
+    outDir: 'dist',
     rollupOptions: {
       external: [
         /^\/Topometric_loc_website\/topometric_result\/.*/,
